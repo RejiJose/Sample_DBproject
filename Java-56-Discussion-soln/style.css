@@ -1,0 +1,60 @@
+html,body{
+  height:100%;
+  margin:0 auto;
+  font-family:Arial;
+}
+.container{
+  display:flex;
+  padding:10px;
+}
+
+nav{
+  background-color:cornflowerblue;
+}
+nav a{
+  color:black;
+  padding:10px;
+  flex:1;
+  text-decoration:none;
+  text-align:center;
+}
+nav a:hover{
+  color:white;
+}
+.subbanner{
+  background-color:rgb(200,220,255);
+}
+#banner{
+  background-color:blue;
+  color:white;
+}
+#footer{
+  background-color:cornflowerblue;
+  color:white;
+  /*position:fixed;*/
+  left: 0;
+  right: 0;
+  bottom:0px;
+}
+ 
+.card{
+  flex:1;
+  padding: 10px;
+}
+h2{
+  background-color:black;
+  color:white;
+  padding:10px;
+  box-shadow:2px 2px 2px gray;
+}
+.center{
+  justify-content:center;
+  align-items:center;
+}
+
+.flip-card{
+flex:1;
+}
+img{
+  max-height:200px;
+}
